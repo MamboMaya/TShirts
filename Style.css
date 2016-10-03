@@ -1,0 +1,35 @@
+body{
+
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.column1, .column2, .column3 {
+    display:inline-block;
+    border: solid;
+    border-color: #47a3da;
+    border-width: 2px;
+    min-width:400px;
+    height:400px;
+    vertical-align: top;
+    position: relative;
+    
+}
+.labels {   
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-color: #47a3da;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    column-count: 5;
+    column-width: 50px;
+    
+}
+.nameprice  {    
+    bottom: 0;
+    text-align: justify;
+}
